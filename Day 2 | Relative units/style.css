@@ -1,11 +1,48 @@
 *{
     box-sizing: border-box;
+    margin: 1em;
 }
-h2{
+
+h1{
     font-size: 2.25em;
 }
 
 p,ul{
     font-size: 1.125em;
-    color: brown;
 }
+
+.cta{
+    background: #ee6352;
+    padding: 1em;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.2em;
+}
+
+.cta_title{
+    margin: 0 0 0.5em;
+    color: white;
+}
+
+.cta_btn{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    background: white;
+    transition:  250ms ;
+    font-size: 1.25em;
+}
+
+.cta_btn:hover{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.cta_body{
+    font-size: 1.25em;
+}
+body{
+    font-family: basic-sens, sams-serif;
+    min-height: 100vh;
+    display: flex;
+}
+
